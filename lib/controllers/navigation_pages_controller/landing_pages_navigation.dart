@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:stockup/Desktop/landing_page/D_about_us_page.dart';
-import 'package:stockup/Desktop/landing_page/D_courses_page.dart';
-import 'package:stockup/Desktop/landing_page/D_homepage.dart';
-import 'package:stockup/Desktop/landing_page/D_policy_page.dart';
-import 'package:stockup/Desktop/landing_page/D_source_code_page.dart';
-import 'package:stockup/Tablet/landing_pages/T_homepage.dart';
+import 'package:stockup/Desktop_Version/landing_page/desktop_about_us_page.dart';
+import 'package:stockup/Desktop_Version/landing_page/desktop_contact_page.dart';
+import 'package:stockup/Desktop_Version/landing_page/desktop_courses_page.dart';
+import 'package:stockup/Desktop_Version/landing_page/desktop_homepage.dart';
+import 'package:stockup/Desktop_Version/landing_page/desktop_policy_page.dart';
+import 'package:stockup/Desktop_Version/landing_page/desktop_source_code_page.dart';
+import 'package:stockup/Tablet_Version/landing_pages/T_homepage.dart';
 
 class LandingPagesNavigationController extends GetxController {
-  Rx<int> currentPage = 2.obs;
+  Rx<int> currentPage = 0.obs;
   var selectedList = List.generate(7, (_) => false.obs);
   toNextPage(int index) {
     currentPage.value = index;
@@ -23,11 +24,14 @@ class LandingPagesNavigationController extends GetxController {
   //-- DesktopLanding pages
   final List<Widget> desktopLandingPages = [
     DesktopHomepage(),
-    DesktopCoursePage(),
-    //DesktopGoLivePage(),
-    DesktopSourceCodePage(),
+    Container(
+      height: double.infinity,
+      width: double.infinity,
+      color: Colors.blue,
+    ),
     DesktopAboutUsPage(),
     DesktopPolicyPage(),
+    DesktopContactPage(),
   ];
 
   //-- DesktopLanding pages

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:stockup/widgets/header_footer/D_header_footer/D_header.dart';
+import 'package:stockup/widgets/header_footer/desktop_header_footer/desktop_header.dart';
 import 'package:stockup/widgets/header_footer/M_header_footer/M_header.dart';
 import 'package:stockup/widgets/header_footer/T_header_footer/T_header.dart';
 import 'package:stockup/widgets/screen_sizes.dart';

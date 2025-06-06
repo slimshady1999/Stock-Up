@@ -1,7 +1,7 @@
 import "package:flutter/material.dart";
 import "package:get/get.dart";
 import "package:stockup/controllers/navigation_pages_controller/landing_pages_navigation.dart";
-import "package:stockup/widgets/custom_colors.dart";
+import "package:stockup/widgets/custom_themes_data/custom_colors.dart";
 import "package:stockup/widgets/menus/M_menu/M_menu.dart";
 
 //-- Desktop Landing Page

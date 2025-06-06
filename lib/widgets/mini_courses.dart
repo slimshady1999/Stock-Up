@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:stockup/widgets/custom_colors.dart';
+import 'package:stockup/widgets/custom_themes_data/custom_colors.dart';
 
 miniDesktopCourses(BuildContext context) {
   return Container(

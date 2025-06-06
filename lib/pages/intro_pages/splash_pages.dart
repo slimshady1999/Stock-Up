@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:stockup/Desktop/D_intro_pages/D_splash_pages.dart';
-import 'package:stockup/Mobile/M_intro_pages/M_splash_pages.dart';
-import 'package:stockup/Tablet/T_intro_pages/T_splash_screen.dart';
+import 'package:stockup/Desktop_Version/desktop_intro_pages/desktop_splash_pages.dart';
+import 'package:stockup/Mobile_Version/M_intro_pages/M_splash_pages.dart';
+import 'package:stockup/Tablet_Version/T_intro_pages/T_splash_screen.dart';
 import 'package:stockup/widgets/screen_sizes.dart';
 
 class SplashScreen extends StatelessWidget {

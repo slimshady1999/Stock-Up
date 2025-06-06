@@ -37,6 +37,7 @@ dependencies:
   flutter_svg: ^2.0.17
   get: ^4.7.2
   flutter_animate: ^4.5.2
+  shimmer: ^3.0.0
 
 dev_dependencies:
   flutter_test:
